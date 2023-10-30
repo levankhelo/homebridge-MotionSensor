@@ -14,10 +14,12 @@
     "homebridge": ">=0.2.0"
   },
   "author": {
-    "name": "@lagunacomputer"
+    "name": "@levankhelo"
   },
   "contributors": [{
     "name": "@levankhelo"
+  },{
+    "name": "@lagunacomputer"
   },{
     "name": "@metbosch"
   }],
