@@ -16,13 +16,17 @@
   "author": {
     "name": "@levankhelo"
   },
-  "contributors": [{
-    "name": "@levankhelo"
-  },{
-    "name": "@lagunacomputer"
-  },{
-    "name": "@metbosch"
-  }],
+  "contributors": [
+    {
+      "name": "@levankhelo"
+    },
+    {
+      "name": "@lagunacomputer"
+    },
+    {
+      "name": "@metbosch"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/levankhelo/homebridge-MotionSensor.git"
