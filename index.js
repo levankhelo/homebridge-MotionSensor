@@ -21,7 +21,7 @@ function HttpMotion(log, config) {
    this.manufacturer = config["manufacturer"] || "@lagunacomputer";
    this.model = config["model"] || "Simple HTTP motion sensor";
    this.serial = config["serial"] || "Non-defined serial";
-   this.timeout = DEF_TIMEOUT;
+   this.timeout =Number( config["timeout"] || DEF_TIMEOUT );
    this.json_response = config["json_response"] || "";
    this.update_interval = Number( config["update_interval"] || DEF_INTERVAL );
 
