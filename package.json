@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-MotionSensor-levankhelo",
+  "name": "homebridge-motionsensor-levankhelo",
   "version": "4.1.0",
   "description": "http/https motion sensor plugin for homebridge",
   "license": "ISC",
@@ -13,19 +13,11 @@
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"
   },
-  "author": {
-    "name": "@levankhelo"
-  },
+  "author": "@levankhelo",
   "contributors": [
-    {
-      "name": "@levankhelo"
-    },
-    {
-      "name": "@lagunacomputer"
-    },
-    {
-      "name": "@metbosch"
-    }
+    "@levankhelo",
+    "@lagunacomputer",
+    "@metbosch"
   ],
   "repository": {
     "type": "git",
@@ -33,5 +25,13 @@
   },
   "dependencies": {
     "request": "^2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/levankhelo/homebridge-MotionSensor/issues"
+  },
+  "homepage": "https://github.com/levankhelo/homebridge-MotionSensor#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
