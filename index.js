@@ -1,8 +1,8 @@
 var Service, Characteristic;
 const request = require('request');
 
-const DEF_TIMEOUT = 3000, //3s
-      DEF_INTERVAL = 60000; //60s
+const DEF_TIMEOUT = 300, //0.3s
+      DEF_INTERVAL = 100; //0.01s
 
 module.exports = function (homebridge) {
    Service = homebridge.hap.Service;
@@ -21,7 +21,7 @@ function HttpMotion(log, config) {
    this.manufacturer = config["manufacturer"] || "@lagunacomputer";
    this.model = config["model"] || "Simple HTTP motion sensor";
    this.serial = config["serial"] || "Non-defined serial";
-   this.timeout =Number( config["timeout"] || DEF_TIMEOUT );
+   this.timeout = Number( config["timeout"] || DEF_TIMEOUT );
    this.json_response = config["json_response"] || "";
    this.update_interval = Number( config["update_interval"] || DEF_INTERVAL );
 
